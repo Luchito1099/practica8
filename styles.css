@@ -4,7 +4,114 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Outfit", sans-serif;
+    background-color: #F9FAFB;
     color: #333;
+}
+img{
+    max-width: 100%;
+    height: auto;  
+    border-radius: 8px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 24px;
+    width: 60%;
+}
+h2{
+    margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+}
+p{
+    display: flex;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-position: inside;
+    padding: 0;
+    
+}
+li{
+    margin-bottom: 16px;
+}
+div.tags span{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+span   {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #D2D5DA;
+}
+span.negrita{
+    color: #000000;
+}
+
+span.product-price{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+}
+section{
+    padding: 32px;
+    background-color: #F9FAFB;
+    border-radius: 8px;
+}
+div.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 52px;
+ 
+}   
+div.product-details{
+    display: flex;
+    flex-direction: column;
+    width: 56%;
+    gap: 40px;
+}
+div.costo   {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+    gap: 64px;
+    padding: 24px 12px;
+    background-color: #F3F4F6;
+    border-radius: 8px;
+}
+div.costo > div{
+    display: flex;
+    flex-direction: column;
+}
+button.buy-now-button{
+    width: auto;
+    background-color: #652CD1;
+    color: #F9FAFB;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: none;
+    margin-right: 16px;
+}  
+button.add-to-cart{
+    width: auto;
+    background-color: #F3F4F6;
+    color: #000000;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 32px;
+    border: 1px solid #D2D5DA;
 }
